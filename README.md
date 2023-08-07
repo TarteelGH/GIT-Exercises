@@ -55,7 +55,7 @@ By the end of this learning sprint, you will have acquired a comprehensive under
 
  ⌛️ Duration: 2h
 
-- [ ]  Check if done
+- [x]  Check if done
 
 ### 💻 **Git Fundamentals and Basic Commands**
 
@@ -73,7 +73,7 @@ By the end of this learning sprint, you will have acquired a comprehensive under
 
  ⌛️ Duration: 1.5h
 
-- [ ]  Check if done
+- [x]  Check if done
 
 ### 🌳 Branching and Merging
 
@@ -97,7 +97,7 @@ By the end of this learning sprint, you will have acquired a comprehensive under
 
  ⌛️ Duration: 2.5h
 
-- [ ]  Check if done
+- [x]  Check if done
 
 ### 🌿📚 Exercise - Learn Git Branching
 
@@ -109,7 +109,7 @@ By the end of this learning sprint, you will have acquired a comprehensive under
 
 </aside>
 
-- [ ]  Check if done.
+- [x]  Check if done.
 
 ### 🤝 Collaborating with Remote Repositories - GitHub
 
@@ -126,7 +126,7 @@ By the end of this learning sprint, you will have acquired a comprehensive under
 
  ⌛️ Duration: 1h
 
-- [ ]  Check if done
+- [x]  Check if done
 
 ### 🎥 GitHub Workflow and Project Management
 
@@ -143,7 +143,7 @@ By the end of this learning sprint, you will have acquired a comprehensive under
 
  ⌛️ Duration: 1h
 
-- [ ]  Check if done
+- [x]  Check if done
 
 ### ⚙️ GitHub Actions
 
@@ -160,7 +160,7 @@ By the end of this learning sprint, you will have acquired a comprehensive under
 
  ⌛️ Duration: 1h
 
-- [ ]  Check if done
+- [x]  Check if done
 
 ### 💻  How Git Works (Optional)
 
@@ -169,7 +169,7 @@ By the end of this learning sprint, you will have acquired a comprehensive under
 
 ⌛️ Duration: 1h
 
-- [ ]  Check if done
+- [x]  Check if done
 
 ### 🔄🍒 Advanced Git Topics - Rebase and Cherry-pick (Optional)
 
@@ -187,7 +187,7 @@ By the end of this learning sprint, you will have acquired a comprehensive under
 
  ⌛️ Duration: 2.5h
 
-- [ ]  Check if done
+- [x]  Check if done
 
 ### 📋 Writing Good README Files and Documentation
 
@@ -201,7 +201,7 @@ By the end of this learning sprint, you will have acquired a comprehensive under
 
  ⌛️ Duration: 0.5h
 
-- [ ]  Check if done
+- [x]  Check if done
 
 ### 🔧 Git Tips, Tricks, and Best Practices
 
@@ -220,17 +220,17 @@ By the end of this learning sprint, you will have acquired a comprehensive under
 
  ⌛️ Duration: 0.5h
 
-- [ ]  Check if done
+- [x]  Check if done
 
 ### 🐙 Exercise - **Git Immersion (Optional)**
 
 - Exercise Link: [Git Immersion](https://gitimmersion.com/lab_10.html)
-- [ ]  Check if done.
+- [x]  Check if done.
 
 ### 🦑 Exercise - **Git Katas (Optional)**
 
 - Exercise Link: ‣
-- [ ]  Check if done.
+- [x]  Check if done.
 
 ### 🔗 Some Useful links
 
