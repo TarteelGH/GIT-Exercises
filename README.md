@@ -1,5 +1,6 @@
 # GIT-Exercises 
 ## Technical Training Program Learning Sprint - #2 | GIT
+
 ## **Introduction**
 
 Congratulations on reaching your second learning sprint! 🎉🚀 It's an incredible milestone to have completed all the deliverables. You should be proud of your progress so far! 💪
