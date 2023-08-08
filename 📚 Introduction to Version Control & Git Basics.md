@@ -12,7 +12,10 @@
         > **Creat,Save,Edit and Save the thing gain**
 
     - [What is Git?](https://git-scm.com/video/what-is-git)
-
+      
+        - **Local GIT** : **Disributed** so that connenctivity does not block work .
+        - **Git** is actually locally enabled , meaning that you can version-control items just on your dasktop , just withh a single piece of software available at the command line.
+        - **Easy** so that learng 
         
     - [Get Going with Git](https://git-scm.com/video/get-going)
     - [Quick wins with Git](https://git-scm.com/video/quick-wins)
