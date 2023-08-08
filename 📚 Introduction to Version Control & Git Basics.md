@@ -15,7 +15,10 @@
       
         - **Local GIT** : **Disributed** so that connenctivity does not block work .
         - **Git** is actually locally enabled , meaning that you can version-control items just on your dasktop , just withh a single piece of software available at the command line.
-        - **Easy** so that learng 
+        - **Easy** so that learninig its commands can happen progressively .
+        -  ` $ init myproject ` & ` $ cd myproject ` : To satrt off with the initialization of a project , That creates a directory , a folder that can contain the project files , as well as the control files store the historical elemtnts , source code  ...
+        -  ` $ Git add ` : Thecommands that actually notices the files and puts them into kind of holding zone , ready to permenntaly be committed .
+        -  ` $ gir commit -m"Importing all the code" ` : iS THE  
         
     - [Get Going with Git](https://git-scm.com/video/get-going)
     - [Quick wins with Git](https://git-scm.com/video/quick-wins)
