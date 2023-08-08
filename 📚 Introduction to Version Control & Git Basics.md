@@ -3,7 +3,17 @@
 
 - **Git Basics - [Git Documentation](https://git-scm.com/videos)**
     - [What is Version Control?](https://git-scm.com/video/what-is-version-control)
+  
+        - **GIT** is fas and modern implementation of **version control** .
+        - **GIT** provides **history** of content changes .
+        - **GIT** facilitates **collaborative changeds** to files .
+        - **GIT** is easy to use for any type of **knowledge worker** .
+          
+        > **Creat,Save,Edit and Save the thing gain**
+
     - [What is Git?](https://git-scm.com/video/what-is-git)
+
+        
     - [Get Going with Git](https://git-scm.com/video/get-going)
     - [Quick wins with Git](https://git-scm.com/video/quick-wins)
     
@@ -22,7 +32,7 @@
         - .[gitignore](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
 
 <aside>
-🌟 For **Git tutorials - Getting started**, concentrate on the following commands: git init, git clone, git add, and git commit. Go through the rest of the commands quickly.
+
 
 </aside>
 
