@@ -39,7 +39,7 @@
        - **GIT** idea o the staging area means that you elect which fles you want to participate in the next commit .
        - The idea of git is being open is one that is supported by the core tool as well as the surroundind servises
        - **GIT** is extremely effcient with its network transfers , to make it very simple to send large quantities of changes across ...
-       - **Exchanges of code actually become conversations , supported by some of rthe web services that surround GIT like GitHub .
+       - **Exchanges of code** actually become conversations , supported by some of rthe web services that surround GIT like GitHub .
        - **GIT** works entirely offline . commits,branches,merges,re-bases,resetting history , even searching through those historical events, all happened offline mode . The exchange of those changes , ` push ` ` pull ` being the commands that we use to execute those .
           
 - **Git Tutorial - Getting Started**
