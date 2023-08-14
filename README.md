@@ -162,32 +162,6 @@ By the end of this learning sprint, you will have acquired a comprehensive under
 
 - [x]  Check if done
 
-### 💻  How Git Works (Optional)
-
-- ****Git Internals****
-    - [Link.](https://levelup.gitconnected.com/git-internals-c219521d9f6)
-
-⌛️ Duration: 1h
-
-- [x]  Check if done
-
-### 🔄🍒 Advanced Git Topics - Rebase and Cherry-pick (Optional)
-
-- **Git Advanced Series on YouTube by Corey Schafer**
-    - [About Git Rebase.](https://docs.github.com/en/get-started/using-git/about-git-rebase)
-    - [Git Rebase.](https://docs.github.com/en/get-started/using-git/using-git-rebase-on-the-command-line)
-    - [Resolving merge conflicts after a Git rebase.](https://docs.github.com/en/get-started/using-git/resolving-merge-conflicts-after-a-git-rebase)
-- **Git Cherry Pick**
-    - [Git Cherry Pick.](https://github.com/matiassingers/awesome-readme)
-- **Exercises**
-    - [Rebase Branch.](https://github.com/eficode-academy/git-katas/blob/master/rebase-branch/README.md)
-    - [Basic Revert.](https://github.com/eficode-academy/git-katas/blob/master/basic-revert/README.md)
-    - [Reset](https://github.com/eficode-academy/git-katas/blob/master/reset/README.md).
-    - [Basic Cherry Pick.](https://github.com/eficode-academy/git-katas/tree/master/basic-cherry-pick)
-
- ⌛️ Duration: 2.5h
-
-- [x]  Check if done
 
 ### 📋 Writing Good README Files and Documentation
 
@@ -221,16 +195,6 @@ By the end of this learning sprint, you will have acquired a comprehensive under
  ⌛️ Duration: 0.5h
 
 - [x]  Check if done
-
-### 🐙 Exercise - **Git Immersion (Optional)**
-
-- Exercise Link: [Git Immersion](https://gitimmersion.com/lab_10.html)
-- [x]  Check if done.
-
-### 🦑 Exercise - **Git Katas (Optional)**
-
-- Exercise Link: ‣
-- [x]  Check if done.
 
 ### 🔗 Some Useful links
 
