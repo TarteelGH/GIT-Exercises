@@ -3,7 +3,8 @@
 - **About Git** ****- Git Tutorial for Beginners****
     - [Command-Line Fundamentals](https://www.youtube.com/watch?v=HVsySz-h9r4)
  
-        - 
+        - git log
+        - git clone <url> < where to clone >
 
     - [Git Basics - Recording Changes to the Repository](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 
