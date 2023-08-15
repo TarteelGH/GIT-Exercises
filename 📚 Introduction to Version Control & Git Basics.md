@@ -114,15 +114,29 @@ This example writes the value your_email@example.com to the configuration name u
           -  The` git reset `command is used to undo a commit or staged snapshot.
           -  ` git push ` is utilized to send the committed changes to remote repositories for collaboration. This enables other team members to access a set of saved changes.
           -  The` git add ` command should not be confused with svn add, which adds a file to the repository. Instead, git add works on the more abstract level of changes. This means that git add needs to be called every time you alter a file, whereas svn add only needs to be called once for each file. It may sound redundant, but this workflow makes it much easier to keep a project organized.
+            
            ![image](https://github.com/TarteelGH/GIT-Exercises/assets/114241640/d0ce5f68-b9ef-4e99-a326-861d720c3f6b)
-     - **Common options**` git add <file> `Stage all changes in <file> for the next commit.` git add <directory> `Stage all changes in <directory> for the next commit.`git add -p `Begin an interactive staging session that lets you choose portions of a file to add to the next commit. This will present you with a chunk of changes and prompt you for a command. Use `y` to stage the chunk, `n` to ignore the chunk, `s` to split it into smaller chunks, `e` to manually edit the chunk, and `q` to exit.
-> استخدم y لتقسيم القطعة ، و n لتجاهل القطعة ، و s لتقسيمها إلى أجزاء أصغر ، و e لتحرير القطعة يدويًا ، و q للخروج.
-         
+
+           - **Common options**` git add <file> `Stage all changes in <file> for the next commit.` git add <directory> `Stage all changes in <directory> for the next commit.`git add -p `Begin an interactive staging session that lets you choose portions of a file to add to the next commit. This will present you with a chunk of changes and prompt you for a command. Use `y` to stage the chunk, `n` to ignore the chunk, `s` to split it into smaller chunks, `e` to manually edit the chunk, and `q` to exitذ استخد` y لتقسيم القطعة ، و n لتجاهل القطعة ، و s لتقسيمها إلى أجزاء أصغر ، و e لتحرير القطعة يدويًا ، و q للخروج.`.
           
         - [git commit](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
+ 
+           - The git commit command captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to. Prior to the execution of git commit, The git add command is used to promote or 'stage' changes to the project that will be stored in a commit. These two commands git commit and git add are two of the most frequently used.
+           - **Common options**`git commit`Commit the staged snapshot. This will launch a text editor prompting you for a commit message. After you’ve entered a message, save the file and close the editor to create the actual commit.`git commit -a`Commit a snapshot of all changes in the working directory. This only includes modifications to tracked files (those that have been added with git add at some point in their history).`git commit -m "commit message"`A shortcut command that immediately creates a commit with a passed commit message. By default, git commit will open up the locally configured text editor, and prompt for a commit message to be entered. Passing the -m option will forgo the text editor prompt in-favor of an inline message.`git commit -am "commit message"`A power user shortcut command that combines the -a and -m options. This combination immediately creates a commit of all the staged changes and takes an inline commit message.`git commit --amend`This option adds another level of functionality to the commit command. Passing this option will modify the last commit. Instead of creating a new commit, staged changes will be added to the previous commit. This command will open up the system's configured text editor and prompt to change the previously specified commit message.
+           > The git add command adds files to the staging area whereas the git commit command will write changes to the repository permanently.
+      
         - [git diff](https://www.atlassian.com/git/tutorials/saving-changes/git-diff)
+     
+           - Comparing changes with git diff Diffing is a function that takes two input data sets and outputs the changes between them. git diff is a multi-use Git command that when executed runs a diff function on Git data sources.
+             
         - [git stash](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
+     
+            - git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on.
+
         - .[gitignore](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
+     
+            - A gitignore file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected; see the NOTES below for details. Each line in a gitignore file specifies a pattern.
+
 
 <aside>
 
