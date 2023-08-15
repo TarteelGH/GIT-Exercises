@@ -44,4 +44,4 @@ Git figures out that it’s a rename implicitly, so it doesn’t matter if you r
 
  ⌛️ Duration: 1.5h
 
-- [ ]  Check if done
+- [x]  Check if done
