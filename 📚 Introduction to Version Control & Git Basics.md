@@ -65,15 +65,60 @@ Your Git history has grown very large in disk size and you need to move it elsew
 You want to have a Git project in a publicly accessible directory like `www:root`
 
           - ` --SHARED[=(FALSE|TRUE|UMASK|GROUP|ALL|WORLD|EVERYBODY|0XXX)] ` Set access permissions for the new repository. This specifies which users and groups using Unix-level permissions are allowed to push/pull to the repository.
-
         
      
         - [git clone](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone)
+     
+          - Here we'll examine the git clone command in depth. git clone is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository. In this page we'll discuss extended configuration options and common use cases of git clone
+          - **Cloning to a specific folder**` git clone <repo> <directory> `Clone the repository located at ＜repo＞ into the folder called ~＜directory＞! on the local machine.
+
+           - **Cloning a specific tag**` git clone --branch <tag> <repo> `
+Clone the repository located at ＜repo＞ and only clone the ref for ＜tag＞.
+``` git clone -branchThe -branch argument lets you specify a specific branch to clone instead of the branch the remote HEAD is pointing to, usually the main branch. In addition you can pass a tag instead of branch for the same effect.` git clone --branch `This above example would clone only the new_feature branch from the remote Git repository. This is purely a convenience utility to save you time from downloading the HEAD ref of the repository and then having to additionally fetch the ref you need. ```
+
+           - **Shallow clone**` git clone -depth=1 <repo> `Clone the repository located at ＜repo＞ and only clone the history of commits specified by the option depth=1. In this example a clone of ＜repo＞ is made and only the most recent commit is included in the new cloned Repo. Shallow cloning is most useful when working with repos that have an extensive commit history. An extensive commit history may cause scaling problems such as disk space usage limits and long wait times when cloning. A Shallow clone can help alleviate these scaling issues. 
+  
+            - In this document we took a deep look at git clone. The most important takeaways are:
+
+              1. git clone is used to create a copy of a target repo
+
+              2. The target repo can be local or remote
+
+              3. Git supports a few network protocols to connect to remote repos
+
+              4. There are many different configuration options available that change the content of the clone
+          
         - [git config](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config)
-        - [git alias](https://www.atlassian.com/git/tutorials/git-alias)
-        
+
+             - The most basic use case for git config is to invoke it with a configuration name, which will display the set value at that name. Configuration names are dot delimited strings composed of a 'section' and a 'key' based on their hierarchy. For example: user.email` git config user.email `
+In this example, email is a child property of the user configuration block. This will return the configured email address, if any, that Git will associate with locally created commits.
+           - **git config levels and files** ` --local ` , ` --global ` . ` --system ` .
+           - **Writing a value**
+Expanding on what we already know about git config, let's look at an example in which we write a value:` git config --global user.email "your_email@example.com" `
+This example writes the value your_email@example.com to the configuration name user.email. It uses the --global flag so this value is set for the current operating system user.
+             
+      - [git alias](https://www.atlassian.com/git/tutorials/git-alias)
+     
+         - This section will focus on Git aliases. To better understand the value of Git aliases we must first discuss what an alias is. The term alias is synonymous with a shortcut. Alias creation is a common pattern found in other popular utilities like `bash` shell. Aliases are used to create shorter commands that map to longer commands. Aliases enable more efficient workflows by requiring fewer keystrokes to execute a command. For a brief example, consider the git checkout command. The checkout command is a frequently used git command, which adds up in cumulative keystrokes over time.
+         ```
+            $ git config --global alias.co checkout
+            $ git config --global alias.br branch
+            $ git config --global alias.ci commit
+            $ git config --global alias.st status
+         
     - Saving changes
         - [git add](https://www.atlassian.com/git/tutorials/saving-changes)
+
+          - The ` git add ` command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. However, git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit.In conjunction with these commands, you'll also need git status to view the state of the working directory and the staging area.
+          - The ` git add ` and ` git commit ` commands compose the fundamental Git workflow. These are the two commands that every Git user needs to understand, regardless of their team’s collaboration model. They are the means to record versions of a project into the repository’s history.
+          -  The` git reset `command is used to undo a commit or staged snapshot.
+          -  ` git push ` is utilized to send the committed changes to remote repositories for collaboration. This enables other team members to access a set of saved changes.
+          -  The` git add ` command should not be confused with svn add, which adds a file to the repository. Instead, git add works on the more abstract level of changes. This means that git add needs to be called every time you alter a file, whereas svn add only needs to be called once for each file. It may sound redundant, but this workflow makes it much easier to keep a project organized.
+           ![image](https://github.com/TarteelGH/GIT-Exercises/assets/114241640/d0ce5f68-b9ef-4e99-a326-861d720c3f6b)
+     - **Common options**` git add <file> `Stage all changes in <file> for the next commit.` git add <directory> `Stage all changes in <directory> for the next commit.`git add -p `Begin an interactive staging session that lets you choose portions of a file to add to the next commit. This will present you with a chunk of changes and prompt you for a command. Use `y` to stage the chunk, `n` to ignore the chunk, `s` to split it into smaller chunks, `e` to manually edit the chunk, and `q` to exit.
+> استخدم y لتقسيم القطعة ، و n لتجاهل القطعة ، و s لتقسيمها إلى أجزاء أصغر ، و e لتحرير القطعة يدويًا ، و q للخروج.
+         
+          
         - [git commit](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
         - [git diff](https://www.atlassian.com/git/tutorials/saving-changes/git-diff)
         - [git stash](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
