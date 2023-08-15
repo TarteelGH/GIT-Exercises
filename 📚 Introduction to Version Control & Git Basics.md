@@ -138,11 +138,6 @@ This example writes the value your_email@example.com to the configuration name u
             - A gitignore file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected; see the NOTES below for details. Each line in a gitignore file specifies a pattern.
 
 
-<aside>
-
-
-</aside>
-
 - **Exercises**
     - [Git Kata: Configuring Git](https://github.com/eficode-academy/git-katas/tree/master/configure-git)
 
