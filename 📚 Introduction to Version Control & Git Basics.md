@@ -134,4 +134,4 @@ This example writes the value your_email@example.com to the configuration name u
 
  ⌛️ Duration: 2h
 
-- [ ]  Check if done
+- [x]  Check if done
